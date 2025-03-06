@@ -41,6 +41,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 20px;
+  align-items: stretch;
 }
 
 .project-card {
@@ -49,26 +50,49 @@ section {
   border-radius: 8px;
   width: 300px;
   transition: transform 0.3s ease;
+
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.project-card h4 {
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.project-card p {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  justify-content: center;
 }
 
 .project-card:hover {
-  transform: scale(1.05);
+  transform: scale(1.06);
 }
 
 .btn {
   display: inline-block;
-  margin-top: 10px;
+  margin-top: auto;
   padding: 10px 15px;
   background-color: rgb(128, 0, 32);
   color: rgb(255, 255, 255);
   text-decoration: none;
   border-radius: 5px;
   transition: transform 0.3s;
+  align-self: center;
 }
 
 .btn:hover {
   background-color: rgb(96, 0, 23);
 }
+
+
 
 footer {
   background-color: rgb(0, 0, 0);
