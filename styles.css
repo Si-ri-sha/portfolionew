@@ -37,6 +37,26 @@ section {
   text-align: center;
 }
 
+#skills{
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+li{
+  padding: 10px 15px;
+  margin:5px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  text-align: start;
+}
+
 .project-grid {
   display: flex;
   justify-content: center;
@@ -91,6 +111,9 @@ section {
 .btn:hover {
   background-color: rgb(96, 0, 23);
 }
+
+
+
 
 
 
