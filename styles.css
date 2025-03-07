@@ -96,7 +96,7 @@ li{
   transform: scale(1.06);
 }
 
-.btn {
+.btn , #contact button {
   display: inline-block;
   margin-top: auto;
   padding: 10px 15px;
