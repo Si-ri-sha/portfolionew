@@ -21,9 +21,9 @@ h1{
 }
 
 nav ul {
-  list-style: none;
-  display: flex;
-  gap: 20px;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 0;
 }
 
 nav a {
@@ -70,7 +70,6 @@ li{
   border-radius: 8px;
   width: 300px;
   transition: transform 0.3s ease;
-
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -174,7 +173,7 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
   }
-  
+
   .project-card {
     width: 90%;
   }
@@ -184,6 +183,7 @@ footer {
   header {
     flex-direction: column;
     text-align: center;
+    padding: 15px;
   }
 
   nav ul {
@@ -203,6 +203,15 @@ footer {
 
   h1 {
     font-size: 28px;
+  }
+
+  #certifications {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .certifications-timeline li {
+    width: 90%;
   }
 }
 
@@ -224,5 +233,12 @@ footer {
     max-width: 90%;
     padding: 15px;
   }
-}
 
+  #certifications {
+    padding: 10px;
+  }
+
+  .certifications-timeline li {
+    width: 95%;
+  }
+}
