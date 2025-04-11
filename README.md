@@ -5,7 +5,6 @@ Welcome to my personal portfolio website. This site showcases my skills, project
 ## 🔧 Technologies Used
 
 - **Frontend**: HTML, CSS, JavaScript
-- **Frameworks/Libraries**: React
 - **Version Control**: Git, GitHub
 - **Deployment**: GitHub Pages
 
