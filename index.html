@@ -3,114 +3,218 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shireesha's Portfolio</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
 
     <script src="https://kit.fontawesome.com/199ef1522f.js" crossorigin="anonymous"></script>
-
   </head>
 
   <body>
-    <header>
-      <h1>Shireesha TH</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#certifications">Certifications</a></li>
-      </ul>
-    </nav>
+    <canvas id="code-bits-bg"></canvas>
+   <header>
+        <a href="#" class="logo">S.TH</a>
+
+        <nav>
+            <a href="#projects" >Projects</a>
+            <a href="#education" >Experience</a>
+            <a href="#contact" >Resume</a>
+        </nav>
     </header>
 
-    <section id="about">
-      <h2>About Me</h2>
-      <p>Entry-level Frontend Developer with hands-on experience in building responsive web applications using React.js, JavaScript, and Firebase. Proven ability in UI/UX principles, cross-browser compatibility, and website optimization. Strong communication, client handling skills, and a passion for clean, functional design.
-      </p>
+     <section class="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span style="color: #3bbfa3;">Shireesha TH</span></h1>
+            <h3 class="typing-text">I'm a <span style="color: #3bbfa3;"></span></h3>
+            <p>I love creating clean, functional web applications—from intuitive user interfaces to efficient backend systems. I'm comfortable working across the stack, writing scalable code, and ensuring things are tested and reliable. Always exploring new tech and building things that solve real problems.</p>
+
+            <div class="social-icons">
+            <a href="https://www.linkedin.com/in/shireesha-th-6782b21a8/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/Si-ri-sha" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/siri_bibliophile?igsh=MWF0NGpza2hpOXljbw==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+          <a href="mailto:sirishasirisha806@gmail.com?subject=Hiring Inquiry&body=Hello Shireesha, I am interested in discussing an opportunity with you." class="btn">Hire Me</a>
+        </div>
+    </section>
+
+     <section class="services" id="services">
+        <h2 class="section-title">Services I Offer <span class="underline-anim"></span></h2>
+            <div class="services-container">
+                <div class="service-box">
+                    <i class="fas fa-code"></i>
+                    <h3>Frontend Development</h3>
+                    <p>I build responsive, dynamic UIs with HTML, CSS, JavaScript, and React, ensuring clean, accessible designs with smooth performance.</p>
+                </div>
+                <div class="service-box">
+                    <i class="fas fa-server"></i>
+                    <h3>Backend Development</h3>
+                    <p>I build robust APIs and backend systems with Python (FastAPI) and Java (Spring), focusing on clean, scalable code and secure data handling.</p>
+                </div>
+                <div class="service-box">
+                    <i class="fas fa-bug"></i>
+                    <h3>Testing & Debugging</h3>
+                    <p>Basic automation, bug fixing, and performance testing for smooth delivery.</p>
+                </div>
+             </div>
     </section>
 
     <section id="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li><strong>Frontend:</strong>  HTML5, CSS3 (Flexbox, Grid), JavaScript (ES6+), React.js, Bootstrap</li>
-        <li><strong>Backend/Cloud:</strong> Firebase, Spring Boot, Spring Cloud, REST APIs </li>
-        <li><strong>Programming Languages:</strong> Python, Java, SQL</li>
-        <li><strong>UI/UX:</strong> Accessibility, Responsive Design, Cross-Browser Compatibility</li>
-        <li><strong>Tools & Libraries:</strong> jQuery, NumPy, Pandas, Matplotlib, Adobe Creative Suite, Miro </li>
-      </ul>
+      <h2>Skills <span class="underline-anim"></span></h2>
+        <ul>
+    <li><strong>Programming:</strong> Python, Java (OOP, Collections, Multithreading), SQL (DDL, DML, TCL, Joins, Subqueries)</li>
+    <li><strong>Web Development & UI/UX:</strong> HTML5, CSS3 (Flexbox, Grid), JavaScript (ES6+), React.js, Bootstrap, Responsive Design, UI Design, Accessibility, Cross-Browser Compatibility, Performance Optimization</li>
+    <li><strong>Data Analysis & AI/ML:</strong> NumPy, Pandas, Matplotlib, Excel, SQL, Data Visualization</li>
+    <li><strong>Backend & DevOps:</strong> Firebase, Spring Boot, Spring Cloud, REST APIs, RESTful API Integration, SDLC, CI/CD, OOP, DSA, Git, GitHub, Debugging, Troubleshooting</li>
+    <li><strong>Tools & Libraries:</strong> jQuery, Adobe Creative Suite, Miro</li>
+    <li><strong>Soft Skills:</strong> Analytical Thinking, Problem Solving, Team Collaboration, Interpersonal Skills</li>
+        </ul>
     </section>
 
-    <section id="projects">
-      <h2>Projects</h2>
-        <div class="project-grid">
-          <div class="project-card">
-          <img src="images/project-1.png" alt="Project 1" width="100%" />
-          <h4>IRIS - Sentinal ChatBot (Ongoing) </h4>
-          <p>Developed a chatbot clone named IRIS capable of detecting sentiment in real-time conversations. Integrated VADER (Valence Aware Dictionary and sEntiment Reasoner) for sentiment analysis and Matplotlib for emotional trend visualization. Utilized NLTK for natural language preprocessing and NumPy/Pandas for structured data handling.
-          </p>          
-          <a href="https://github.com/Si-ri-sha/iris_project" class="btn">View</a>
+   <section class="projects" id="projects">
+  <h2 class="section-title">Projects <span class="underline-anim"></span></h2>
+  <div class="project-container">
+    <div class="project-row">
+      <div class="project-details">
+        <h3>Game Hub</h3>
+        <p><strong>Tech:</strong> JavaScript, HTML, CSS</p>
+        <p>I developed a collection of three classic games — Guess the Number, Memory Game, and Tic-Tac-Toe — using JavaScript, HTML, and CSS. This project strengthened my understanding of DOM manipulation, event handling, local storage, and game logic. I focused on building dynamic, responsive interfaces with smooth user interactions and simple animations. 
+          Through this process, I also improved my problem-solving skills by debugging both logical and UI-related issues.</p>
+        <div class="project-links">
+          <a href="https://si-ri-sha.github.io/PickandPlay/" target="_blank">Live Demo</a>
+          <a href="https://github.com/Si-ri-sha/PickandPlay" target="_blank">View Code</a>
         </div>
-
-        <div class="project-card">
-          <img src="images/project-2.png" alt="Project 2" width="100%" />
-          <h4>Smart Safety Monitoring System</h4>
-          <p>
-            An IoT-based system designed to protect sewage workers from hazardous gases. The system consists of a helmet-themed prototype equipped with gas sensors, buzzers, and real-time alerts to detect dangers and notify a remote server. 
-            This low-budget yet functional prototype demonstrates the power of real-time monitoring and IoT integration in worker safety.
-          </p>
-          <a href="#" class="btn">View</a>
-        </div>
-
-        <div class="project-card">
-          <img src="images/project-3.png" alt="Project 3" width="100%" />
-          <h4>Game Hub</h4>
-          <p>
-            Game Hub consists of three classic games: Guess the Number, Memory Game, and Tic-Tac-Toe. Built with JavaScript, HTML, and CSS. The project demonstrates my expertise in DOM manipulation and event handling. It also incorporates UI updates and local storage for a seamless experience.
-          </p>
-          <a href="https://si-ri-sha.github.io/PickandPlay/" class="btn">View</a>
-        </div>
-
-      <div class="project-card">
-        <img src="images/project-4.png" alt="Project 4" width="100%" />
-        <h4>CollabShare (Ongoing)</h4>
-        <p>CollabShare is an ongoing web application project aimed at simplifying team collaboration for seamless project management. The platform is being developed to offer features like task assignment, progress tracking, and shared workspaces, ensuring efficient teamwork.</p>        
-        <a href="https://github.com/Si-ri-sha/collabshare" class="btn">View</a>
       </div>
-    </section>
+    </div>
 
-    <section id="education">
-      <div class="container">
-        <h2>Education</h2>
-        <p><strong class="course-name">B.E in Information Science</strong> | 2019-2024 <br> HKBK College of Engineering | CGPA: 6.0</p>
+    <div class="project-row reverse">
+      <div class="project-details">
+        <h3>RAG Chatbot</h3>
+        <p><strong>Tech:</strong> FastAPI (Python), React, Tailwind CSS, Chroma Vector Store,<br> Redis, Sentence-Transformers (all-MiniLM-L6-v2)</p>
+         <p>I developed News-RAG-Chatbot, a full-stack Retrieval-Augmented Generation (RAG) chatbot over a news corpus using FastAPI (Python), React, Tailwind CSS, Chroma vector store, and Redis for session caching. The backend handles article ingestion, embedding, and retrieval through Chroma, while the frontend provides a responsive chat interface with session management. This project deepened my understanding of RAG pipelines, vector databases, session caching, and integrating APIs into a chat-based UI. For demonstration, I used a mocked Gemini LLM, with the architecture ready for easy integration of real LLM APIs.</p>
+        <div class="project-links">
+          <a href="#">Live Demo</a>
+          <a href="#">View Code</a>
+        </div>
       </div>
-    </section>    
+    </div>
+
+    <div class="project-row">
+      <div class="project-details">
+        <h3>CollabShare <span style="font-size: 1.4rem; color: #999;">(Ongoing)</span></h3>
+        <p><strong>Tech:</strong> React Native, Firebase, JavaScript</p>
+         <p>A team collaboration app built with React Native, Firebase, and JavaScript for managing task assignments, tracking progress, and creating shared workspaces. This project was designed to streamline remote teamwork by allowing users to easily assign tasks, monitor updates in real-time, and collaborate within dedicated workspaces. Leveraging Firebase’s real-time database and authentication, the app ensures seamless user management and instant data synchronization across devices. Through this project, I gained deeper experience in mobile app development, cloud-based backend services, and building responsive, user-friendly collaborative tools.</p>
+        <div class="project-links">
+          <a href="#">Live Demo</a>
+          <a href="#">View Code</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-row reverse">
+      <div class="project-details">
+        <h3>Smart Safety Monitoring System</h3>
+        <p><strong>Tech:</strong> IoT, Sensors, Python</p>
+        <p>An IoT-based safety monitoring system developed using IoT sensors and Python to detect hazardous gas levels in sewage environments. The system continuously monitors air quality and provides real-time alerts to workers when dangerous gas thresholds are detected. In simulation tests, the solution demonstrated an 80% improvement in safety response time by enabling early warnings and proactive measures. This project deepened my understanding of sensor integration, real-time data processing, and the practical application of IoT for worker safety.</p>
+      </div>
+    </div>
+
+    <div class="project-row">
+      <div class="project-details">
+        <h3>IRIS – AI Chatbot Clone </h3>
+        <p><strong>Tech:</strong> Python, NLTK, VaderSentiment</p>
+        <p>IRIS is an ongoing project to build a Python-based AI chatbot using NLTK, VaderSentiment, NumPy, and Expo to deliver sentiment-aware conversations. The chatbot analyzes user input with natural language processing (NLP) techniques to understand sentiment and adjust its responses accordingly. By integrating VaderSentiment for sentiment analysis and leveraging NumPy for efficient data handling, the project focuses on creating more human-like and emotionally aware interactions. This project has enhanced my skills in Python NLP libraries, sentiment analysis, and conversational AI development.</p>
+        <div class="project-links">
+          <a href="#">Live Demo</a>
+          <a href="#">View Code</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-row reverse">
+      <div class="project-details">
+        <h3>Payment Integration App <span style="font-size: 1.4rem; color: #999;">(Ongoing)</span></h3>
+        <p><strong>Tech:</strong> React, Stripe API, Firebase</p>
+        <p>An ongoing project built with React, Stripe API, and Firebase to enable secure online payment processing with a clean, user-friendly interface. The app will support real-time transaction tracking while using Firebase for reliable data storage and management. This project focuses on integrating seamless payment workflows with responsive UI and robust backend support.</p>
+        <div class="project-links">
+          <a href="#">Live Demo</a>
+          <a href="#">View Code</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+ 
+
+<section class="edu-exp" id="education">
+  <h2 class="section-title">Education & Experience <span class="underline-anim"></span></h2>
+  <div class="edu-exp-container">
+
+    <div class="edu-box">
+      <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+      <p><strong>B.E in Information Science</strong><br>
+        HKBK College of Engineering<br>
+        <span class="edu-date">2019 – 2024</span><br>
+        <span class="edu-grade">CGPA: 7.0</span>
+      </p>
+      <p><strong>PCMB in Science</strong></br>
+        Kyathi Girls PU College<br>
+        <span class="edu-date">2016 - 2018</span><br>
+        <span class="edu-grade">Percentage: 83.33%</span>
+      </p>
+      <p><strong>SSLC</strong></br>
+        New Great International School<br>
+        <span class="edu-date">2015 - 2016</span><br>
+        <span class="edu-grade">Percentage: 83.33%</span>
+      </p>
+    </div>
     
-    <section id="certifications">
-      <div class="container">
-        <h2>Certifications</h2>
-          <div class="certifications-timeline">
-            <ul>
-                <li><a href="https://www.credly.com/badges/e8d5a35d-147c-42ab-9932-d47ce0f331fd/linked_in_profile" target="_blank"><strong>AWS Academy Graduate</strong></a> - AWS Academy Cloud Foundations</li>
-                <li><a href="https://www.credential.net/e596119f-df9e-4a59-9528-4ad67729c927#acc.1nMYNhBg" target="_blank"><strong>Cloud Technical Series - Learn. Build. Grow</strong></a> - Google Cloud Asia Pacific</li>
-                <li><a href="https://www.credly.com/badges/42ae23d6-34f2-4cf4-a68b-6068166c3ff5/linked_in_profile" target="_blank"><strong>Datacom Software Development Virtual Experience Program</strong></a> - Datacom</li>
-                <li><a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Electronic%20Arts/a77WE3de8qrxWferQ_Electronic%20Arts_LNsov3XgopmsGxSiX_1681484978501_completion_certificate.pdf" target="_blank"><strong>Software Engineering Virtual Experience Program</strong></a> - Electronic Arts (EA)</li>
-                <li><a href="https://www.credly.com/badges/42ae23d6-34f2-4cf4-a68b-6068166c3ff5/linked_in_profile" target="_blank"><strong>Mapping & diagramming</strong></a> - Miro</li>   
-            </ul>
-          </div>
-    </section>
+    <div class="exp-box">
+      <h3><i class="fas fa-briefcase"></i> Experience</h3>
+
+      <div class="exp-item">
+        <strong>Property Advisor || MagicBricks</strong><br>
+        <span class="exp-date">Jul 2024 - Jan 2025</span>
+        <p>
+          • Improved user satisfaction through client handling and engagement.<br>
+          • Conducted market research and data analysis for property recommendations.
+        </p>
+      </div>
+
+      <div class="exp-item">
+        <strong>Technical Intern || Nano Robotics Embed Technologies</strong><br>
+        <span class="exp-date">Aug 2022 - Oct 2022</span>
+        <p>
+          • Built embedded systems software in Python.<br>
+          • Applied machine learning for real-time data visualization.
+        </p>
+      </div>
+
+      <div class="exp-item">
+        <strong>Embedded System Engineer || Techmonk Project Solutions</strong><br>
+        <span class="exp-date">Aug 2021 - Oct 2021</span>
+        <p>
+          • Developed real-time LED monitoring for automation in smart stations.<br>
+          • Worked on data flow, system triggers, and tech documentation.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
  
     <section id="contact">
-      <h2>Contact</h2>
-      <button class="contact-button" onclick="location.href='mailto:sirishasirisha806@gmail.com'">
-        <i class="fa-sharp fa-solid fa-envelope"></i> Email Me</button>
+      <h2>Resume <span class="underline-anim"></span></h2>
       <button class="contact-button" >
-        <i class="fa-sharp fa-solid fa-download"></i> <a href="images/Shireesha_resume.pdf">Download Resume</a></button>
+        <i class="fa-sharp fa-solid fa-download"></i> <a href="file/Shireesha TH_resume_July.pdf">Download Resume</a></button>
     </section>
 
     <footer>
-      <p>&copy; S.TH</p>
+      <p style="text-align: center;">&copy; S.TH</p>
     </footer>
-  </body>
-</html>
 
+    <script src="script.js"></script>
+
+</body>
+</html>
