@@ -1,4 +1,4 @@
-# Siri's Portfolio Website
+# Portfolio Website
 
 Welcome to my personal portfolio website. This site showcases my skills, projects, and experience as I transition into the software development field.
 
@@ -12,7 +12,6 @@ Welcome to my personal portfolio website. This site showcases my skills, project
 
 - **Home** – Introduction and overview
 - **Projects** – Selected projects with links and descriptions
-- **Writing** – Highlights of my work as a writer
 - **Contact** – Ways to get in touch
 
 ## 🚧 Status
